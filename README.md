@@ -5,5 +5,5 @@
 Just use the input as first argument, e.g.:
 
 ```sh
-ruby 1.rb "$(curl 'https://adventofcode.com/2019/day/1/input' --cookie session=the_session_cookie)"
+ruby 01.rb "$(curl 'https://adventofcode.com/2019/day/1/input' -s --cookie session=the_session_cookie)"
 ```
